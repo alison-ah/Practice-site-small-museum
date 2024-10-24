@@ -84,12 +84,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+/*------------- Base Styles ----------------*/
 
+html {
+  font-size: 1rem;
 }
 
-header {
-  background: url('img/name.jpg') no repeat rgb(122, 153, 122);
+body {
+  font-family: ;
+  font-size: ;
+  color: ;
+  text-align: left;
 }
 
 h1 {
@@ -120,6 +125,74 @@ p {
   font-family: ;
   font-size: 1em;
   color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+.article {
+
+}
+
+/*------------- Header Styles ----------------*/
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: ;
+ }
+ 
+header .content-wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+ margin: 0;
+}
+ 
+header figure {
+ width: 60%;
+}
+ 
+.header-divider {
+  width: 100%;
+  height: 1px;
+  color: #3a3a3a;
+  margin: 10px 0 20px 0;
+}
+ 
+header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ 
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+ 
+header nav ul li {
+  font-size: 1.125em;
+} 
+
+/*------------- Footer Styles ----------------*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #202322;
 }
 
 
